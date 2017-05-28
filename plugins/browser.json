@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "zone.joe.bud1"
+        }
+    }
+}

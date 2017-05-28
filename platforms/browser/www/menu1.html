@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+  <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/>-->
+  <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+  <title></title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-4.0.0-alpha.6.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <div class="container navcontainer">
+      <div class="navcenter">
+        <a class="navbar-brand" href="index.html"><img src="img/Bud_BT_Cms_Sld_Scr_Sm.png"></a>
+      </div>
+      <button style="display:none;" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    </div>
+  </nav>
+
+  <div class="py-5  section" >
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 menulinks">
+    <div class="menucenter"><a href="eo1.html"><img src="img/calendar.svg"><br>EVENT<br>OVERVIEW</a><a href="kc1.html"><img src="img/address-book.svg"><br>KEY<br>CONTACTS</a></div>
+    <div style="clear:both"></div>
+          <div class="menucenter"><a href="tl1.html"><img src="img/plane.svg"><br>TRAVEL<br>LOGISTICS</a><a href="so1.html"><img src="img/stadium.svg"><br>STADIUM<br>OPERATIONS</a></div>
+          <div style="clear:both"></div>
+            <div class="menucenter" style="width:100%;"><a style="width:100%;" href="pa1.html"><img style="width:25%;" src="img/geo-marker.svg"><br>PROPERTY<br>ACTIVATIONS</a></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap-4.0.0-alpha.6.min.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+    app.initialize();
+  </script>
+</body>
+
+</html>
