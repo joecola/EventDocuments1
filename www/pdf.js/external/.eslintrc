@@ -1,0 +1,14 @@
+{
+  "extends": [
+    ../.eslintrc
+  ],
+
+  "env": {
+    "node": true,
+    "shelljs": true,
+  },
+
+  "rules": {
+    "object-shorthand": "off",
+  },
+}
