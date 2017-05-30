@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="zone.joe.bud1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.promocapture.EventDocuments1" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>bud1</name>
+    <name>Event Documents</name>
     <description>
-        Event Documents
+        Event Documents 2017 (v3)
     </description>
-    <author email="joehahn@gmail.com" href="http://promocapture.com">
-        PhoneGap Team
+    <author email="contact@promocapture.com" href="http://promocapture.com">
+        © 2017 PromoCapture LLC. All Rights Reserved.
     </author>
     <content src="index.html" />
     <access origin="*" />
