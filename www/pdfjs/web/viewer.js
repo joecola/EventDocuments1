@@ -2274,7 +2274,8 @@ function webViewerKeyDown(evt) {
       case 107:
       case 187:
       case 171:
-        if (!isViewerInPresentationMode) {
+//        if (!isViewerInPresentationMode) {
+if (true || !isViewerInPresentationMode) {
           PDFViewerApplication.zoomIn();
         }
         handled = true;
@@ -2282,14 +2283,16 @@ function webViewerKeyDown(evt) {
       case 173:
       case 109:
       case 189:
-        if (!isViewerInPresentationMode) {
+//        if (!isViewerInPresentationMode) {
+if (true || !isViewerInPresentationMode) {
           PDFViewerApplication.zoomOut();
         }
         handled = true;
         break;
       case 48:
       case 96:
-        if (!isViewerInPresentationMode) {
+//        if (!isViewerInPresentationMode) {
+if (true || !isViewerInPresentationMode) {
           setTimeout(function () {
             pdfViewer.currentScaleValue = _ui_utils.DEFAULT_SCALE_VALUE;
           });
@@ -2407,7 +2410,8 @@ function webViewerKeyDown(evt) {
         }
         break;
       case 72:
-        if (!isViewerInPresentationMode) {
+//        if (!isViewerInPresentationMode) {
+if (true || !isViewerInPresentationMode) {
           PDFViewerApplication.handTool.toggle();
         }
         break;

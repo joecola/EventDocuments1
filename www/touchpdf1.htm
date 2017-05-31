@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta charset="UTF-8">
+  <title>TouchPDF</title>
+  <link href="touchpdf/jquery.touchPDF.css" rel="stylesheet" media="screen" />
+	<style>
+		body , html{
+			background-color: #404040;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+
+<div id="myPDF" style="height: 95%; width: 95%; margin: auto;"></div>
+
+
+<script type="text/javascript" src="touchpdf/pdf.compatibility.js"></script>
+<script type="text/javascript" src="touchpdf/pdf.js"></script>
+<script type="text/javascript" src="touchpdf/jquery.min.js"></script>
+<script type="text/javascript" src="touchpdf/jquery.touchSwipe.js"></script>
+<script type="text/javascript" src="touchpdf/jquery.touchPDF.js"></script>
+<script type="text/javascript" src="touchpdf/jquery.panzoom.js"></script>
+<script type="text/javascript" src="touchpdf/jquery.mousewheel.js"></script>
+
+<script type="text/javascript">
+
+	$(function() {
+		$("#myPDF").pdf( {
+			source: "Event-Overview.pdf",
+showToolbar: false,
+loadingHTML: "Loading Document"
+		} );
+	});
+
+</script>
+</body>
+</html>
