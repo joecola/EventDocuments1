@@ -371,7 +371,7 @@ button:focus {
 .hamburger{
   width:50px;
 position: absolute;
-top: 20px;
+top: 35px;
 right: 10px;
 }
 
@@ -381,4 +381,18 @@ right: 10px;
 
 .eventleft{
 
+}
+
+div.navcontainer{
+  zoom: 0.7;
+  -moz-transform: scale(0.7);
+}
+
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.9rem 1rem;
 }

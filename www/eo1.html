@@ -57,7 +57,7 @@
   </nav>
 
 
-<iframe src="./pdfjs/web/viewer.html?file=Event-Overview.pdf"   style="width:100%; height:80%;" frameborder="0"></iframe>
+<iframe src="./pdfjs/web/viewer.html?file=Event-Overview.pdf"   style="width:100%; height:100%;" frameborder="0"></iframe>
 
 
 
@@ -69,7 +69,7 @@
 
 
 
-   
+
 
 
 
@@ -78,9 +78,21 @@
   <script src="js/jquery-3.1.1.slim.min.js"></script>
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap-4.0.0-alpha.6.min.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript">
+
+  var mc = new Hammer.Manager(myElement, myOptions);
+
+  mc.add( new Hammer.Pan({ direction: Hammer.DIRECTION_ALL, threshold: 0 }) );
+  mc.add( new Hammer.Tap({ event: 'quadrupletap', taps: 4 }) );
+
+  mc.on("pan", handlePan);
+  mc.on("quadrupletap", handleTaps);
+
+
+
     app.initialize();
   </script>
 </body>
